@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
-
+@property (weak, nonatomic) IBOutlet UIImageView *name1;
+@property NSString *value;
+@property UIImage *image;
+@property NSString *text;
 @end
